@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>three.js webgl - postprocessing - unreal bloom</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<link type="text/css" rel="stylesheet" href="main.css">
+		<style>
+		#nextModule,
+		#preModule{
+			font-size: 2em;
+			display: block;
+			position: fixed;
+			top: 50%;
+			color: white;
+			cursor: pointer;
+		}
+		#nextModule
+		{
+			right: 2rem;
+		}
+		#preModule
+		{
+			left: 2rem;
+		}
+		body
+		{
+			background: white
+		}
+		</style>
+	</head>
+	<body>
+
+		<div id="container"></div>
+		<div id="preModule"> Pre </div>
+		<div id="nextModule"> Next </div>
+		
+		<script type="module" src='ex2.module.js'></script>
+
+	</body>
+
+</html>
